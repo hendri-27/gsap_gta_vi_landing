@@ -1,6 +1,5 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { GSDevTools } from "gsap/GSDevTools";
 import { useMaskSettings } from "../../constants";
 import ComingSoon from "./ComingSoon";
 
@@ -53,8 +52,6 @@ const Hero = () => {
         maskImage:
           "radial-gradient(circle at 50% 0vh, black 50%, transparent 100%)",
       });
-
-    GSDevTools.create({ animation: tl, live: true });
   });
 
   return (
