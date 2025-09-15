@@ -5,6 +5,7 @@ import { GSDevTools } from "gsap/GSDevTools";
 import Hero from './sections/hero';
 import NavBar from './sections/NavBar';
 import FirstVideo from './sections/FirstVideo';
+import Jason from './sections/Jason';
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(GSDevTools);
@@ -15,6 +16,7 @@ const App = () => {
       <NavBar />
       <Hero />
       <FirstVideo />
+      <Jason />
     </main>
   )
 }
