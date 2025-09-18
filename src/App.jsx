@@ -2,7 +2,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import { GSDevTools } from "gsap/GSDevTools";
 
-import Hero from './sections/hero';
+import Hero from './sections/Hero';
 import NavBar from './sections/NavBar';
 import FirstVideo from './sections/FirstVideo';
 import Jason from './sections/Jason';
